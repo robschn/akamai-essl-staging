@@ -1,5 +1,8 @@
 #!/bin/zsh
 
+# Example:
+# 	sudo zsh akamai_essl.zsh www.example.com www-2.example.com www-3.example.com
+
 # create a backup of hosts file
 mv /etc/hosts /etc/hosts.backup
 
