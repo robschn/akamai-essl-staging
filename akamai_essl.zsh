@@ -19,7 +19,7 @@ staging_ip=$(dig +short $staging_hostname \
 	| awk 'NR == 2')
 
 # update hosts file with new staging IPs
-echo "$staging_ip $host edgekey-staging" >> /etc/hosts
+echo "$staging_ip $host" >> /etc/hosts
 done
 
 echo 'Hosts file updated:'
